@@ -102,7 +102,8 @@ pnpm start
  
 -   Astro build version
 -   Support for the app folder and the current beta features of next.js 13 (once it's stable)
-
+-   Add support for the telegram bot (receiving contact emails in telegram)
+-   Support for sentry for performance and error tracking and monitoring
 
  ## License
  This project is licensed under the MIT License - see the  [LICENSE.md](https://github.com/ZakariaBenali/nextjs-portfolio/blob/main/LICENSE)  file for more details
