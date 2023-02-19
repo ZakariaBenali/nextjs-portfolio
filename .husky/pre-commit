@@ -1,0 +1,20 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+green='\033[0;32m'
+yellow='\033[0;33m'
+blue='\033[0;34m'
+lightCyan='\033[0;96m'
+no_color='\033[0m'
+dt=$(date)
+
+
+echo -e "${blue}[$dt] [TSC] ${no_color}Performing type checking..."
+pnpm types:check
+echo -e "${yellow}[$dt] [Prettier] ${no_color}Rewriting code format...${no_color}"
+pnpm prettier --write .
+echo -e "${lightCyan}[$dt] [ESLint] ${no_color}Checking and fixing code standards...${no_color}"
+pnpm lint:fix
+echo -e "${green}[$dt] [FINSHED] All tests passed! Commiting to the repo...${no_color}"
+
+git add -A .

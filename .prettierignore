@@ -1,0 +1,7 @@
+.next/
+node_modules/
+package.json
+pnpm-lock.yaml
+.vscode
+README.md
+.husky

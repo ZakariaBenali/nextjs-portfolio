@@ -1,0 +1,23 @@
+export const technologies = [
+	'HTML',
+	'CSS',
+	'Sass',
+	'TailwindCSS',
+	'PHP',
+	'Laravel',
+	'Statamic',
+	'React',
+	'Javascript',
+	'Jquery',
+	'Typescript',
+	'Next.js',
+	'Strapi',
+	'Node.js',
+	'Nest.js',
+	'AWS',
+	'Docker',
+	'MySQL',
+	'Figma',
+	'Adobe XD',
+] as const;
+export type Technology = typeof technologies[number];

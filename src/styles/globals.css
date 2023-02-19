@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--color-black: 32 32 34;
+	--color-primary-500: 254 72 28;
+	--color-primary-100: 255 212 149;
+	--color-secondary-400: 132 214 215;
+	--color-body-bg: 238 237 236;
+	--color-gray-400: 172 172 186;
+	--color-gray-100: 227 227 227;
+	--color-footer-bg: 36 34 55;
+	--color-property-primary: 255 142 94;
+	--color-property-secondary: 132 214 215;
+	--color-property-tertiary: 0 135 177;
+	--color-error: 255 61 61;
+	--color-success: 65 171 92;
+}
+
+.grecaptcha-badge {
+	display: none !important;
+}

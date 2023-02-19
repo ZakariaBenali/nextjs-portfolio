@@ -1,0 +1,8 @@
+{
+	"editor.formatOnSave": true,
+	"editor.tabSize": 2,
+	"files.exclude": {
+		".next/": true
+	},
+	"typescript.tsdk": "node_modules/typescript/lib"
+}
