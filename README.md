@@ -17,7 +17,7 @@ A custom-built portfolio created with Next.js to showcase your skills and work w
 -   Formik integration.
 -   Responsive design
 -   Built-in color generator (but you can still add your own).
--   Auto fetch GitHub projects (sorted by last 8 with highest stars)
+-   Auto fetch GitHub projects (8 with highest stars)
 -   Very customizable.
 -   PNPM as a default package manager for fast and efficient disk space usage.
 -   Code well organized, Customizable, and scalable.
