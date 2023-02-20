@@ -26,7 +26,7 @@ const Schema = z.object({
 	name: z.string().min(1, 'Name is required'),
 	email: z.string().email(),
 	subject: z.string().min(1, 'Subject is required'),
-	message: z.string().min(10, 'Message is required'),
+	message: z.string().min(10, 'The message should be at least 10 characters'),
 	'g-recaptcha-response': z.string().min(1, 'Captcha error, Please refresh the page and try again'),
 });
 
