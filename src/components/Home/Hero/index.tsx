@@ -41,7 +41,7 @@ const Hero: FC = () => {
 							View projects
 						</Button>
 					</motion.div>
-					<AnimatedDivider containerClasses="mx-8" />
+					<AnimatedDivider className="bg-black" containerClasses="mx-8" />
 					<Socials />
 				</div>
 			</div>

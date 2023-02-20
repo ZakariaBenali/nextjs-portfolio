@@ -11,7 +11,7 @@ const Divider: FC<DividerProps> = ({ length, className, ...rest }) => {
 				height: '2px',
 				width: `${length}px`,
 			}}
-			className={clsx('bg-black flex-shrink-0', className)}
+			className={clsx('flex-shrink-0', className)}
 			{...rest}
 		></div>
 	);
