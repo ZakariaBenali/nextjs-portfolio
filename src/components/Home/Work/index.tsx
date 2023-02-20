@@ -8,7 +8,7 @@ const Work = () => {
 	return (
 		<BodySection id="work">
 			<div className="container">
-				<SectionTitle title="Things I built" />
+				<SectionTitle title="Things I built." />
 				<div className="flex flex-wrap">
 					{works.map(({ color, ...rest }, i) => (
 						<WorkCard key={i} color={color ?? getColor(i, '99')} {...rest} />
