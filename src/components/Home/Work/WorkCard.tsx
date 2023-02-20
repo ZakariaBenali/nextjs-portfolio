@@ -19,7 +19,7 @@ const WorkCard: FC<Work> = ({ title, description, url, technologies, image, colo
 				<div className="flex flex-col items-center h-full">
 					<div className="flex flex-col xl:mb-10 2xl:flex-row">
 						<h3 className="flex-shrink-0 text-xl font-bold 2xl:text-2xl">{title}</h3>
-						<Divider className="hidden mx-4 mt-3 2xl:block" />
+						<Divider className="hidden mx-4 mt-3 bg-black 2xl:block" />
 						<p className="mt-4 mb-5 text-base 2xl:text-xl 2xl:mt-0">{description}</p>
 					</div>
 					<div className="flex flex-wrap mt-auto mb-4 lg:justify-center lg:items-center xl:max-w-xl">
