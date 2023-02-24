@@ -43,7 +43,8 @@ A custom-built portfolio created with Next.js to showcase your skills and work w
 4.  A Sendgrid API key is necessary to receive the emails from the contact form.
 
 ## :floppy_disk: Data
-All data on the project is located under the folder data/ located [here](https://github.com/ZakariaBenali/nextjs-portfolio/tree/main/src/data) 
+All data on the project is located under the folder data/ located [here](https://github.com/ZakariaBenali/nextjs-portfolio/tree/main/src/data)
+> NOTE: You need to fill the technologies array in technologies.ts for the typescript check
 
 ## :hammer_and_wrench: Installation locally
 
