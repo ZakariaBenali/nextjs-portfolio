@@ -2,7 +2,7 @@ export const GetRepositories = /* GraphQL */ `
 	query GetRepositories {
 		viewer {
 			repositories(
-				first: 8
+				first: 9
 				orderBy: { field: STARGAZERS, direction: DESC }
 				isFork: false
 				ownerAffiliations: [OWNER]
