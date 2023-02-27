@@ -13,7 +13,7 @@ const WorkCard: FC<Work> = ({ title, description, url, technologies, image, colo
 				href={url}
 				target="_blank"
 				rel="noreferrer"
-				className="block h-full p-10 pb-0 overflow-hidden cursor-pointer"
+				className="block h-full p-10 pb-0 overflow-hidden cursor-pointer "
 				style={{
 					backgroundColor: `${color}`,
 				}}
