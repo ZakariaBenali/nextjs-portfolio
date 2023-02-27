@@ -15,7 +15,7 @@ const FormControl: FC<PropsWithChildren<FormControlProps & HTMLAttributes<HTMLDi
 	return (
 		<>
 			<div
-				className={clsx('relative pr-3 transition bg-gray-100 border-2 border-transparent', {
+				className={clsx('relative transition bg-gray-100 border-2 border-transparent', {
 					className,
 					'border-error': error,
 				})}
