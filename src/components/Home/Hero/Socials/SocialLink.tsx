@@ -1,6 +1,6 @@
-import { AnchorHTMLAttributes, FC, PropsWithChildren } from 'react';
+import { AnchorHTMLAttributes, FC } from 'react';
 
-interface Props extends PropsWithChildren, AnchorHTMLAttributes<HTMLAnchorElement> {
+interface Props extends AnchorHTMLAttributes<HTMLAnchorElement> {
 	href: string;
 }
 

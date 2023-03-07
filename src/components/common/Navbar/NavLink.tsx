@@ -1,12 +1,12 @@
 import clsx from 'clsx';
 import { scrollIntoView } from 'helpers/scrollToView';
-import { ButtonHTMLAttributes, FC, PropsWithChildren } from 'react';
+import { ButtonHTMLAttributes, FC } from 'react';
 
 interface Props extends Omit<ButtonHTMLAttributes<HTMLButtonElement>, 'type' | 'onClick'> {
 	to: string;
 }
 
-const NavLink: FC<PropsWithChildren<Props>> = ({ children, to, className, ...rest }) => {
+const NavLink: FC<Props> = ({ children, to, className, ...rest }) => {
 	return (
 		<button
 			type="button"

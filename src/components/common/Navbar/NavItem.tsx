@@ -1,10 +1,10 @@
-import { FC, HTMLAttributes, PropsWithChildren } from 'react';
+import { FC, HTMLAttributes } from 'react';
 import clsx from 'clsx';
 interface Props extends HTMLAttributes<HTMLLIElement> {
 	showMenu: boolean;
 }
 
-const NavItem: FC<PropsWithChildren<Props>> = ({ className, showMenu, children, ...rest }) => {
+const NavItem: FC<Props> = ({ className, showMenu, children, ...rest }) => {
 	return (
 		<li
 			className={clsx(

@@ -1,4 +1,4 @@
-import { FC, HTMLAttributes, PropsWithChildren } from 'react';
+import { FC, HTMLAttributes } from 'react';
 import clsx from 'clsx';
 import { FormControlError } from './FormControlError';
 
@@ -6,7 +6,7 @@ export interface FormControlProps {
 	error?: string;
 }
 
-const FormControl: FC<PropsWithChildren<FormControlProps & HTMLAttributes<HTMLDivElement>>> = ({
+const FormControl: FC<FormControlProps & HTMLAttributes<HTMLDivElement>> = ({
 	children,
 	error,
 	className,

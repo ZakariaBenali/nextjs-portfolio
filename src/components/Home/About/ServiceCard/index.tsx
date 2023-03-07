@@ -1,10 +1,10 @@
-import { FC, HTMLAttributes, PropsWithChildren } from 'react';
+import { FC, HTMLAttributes } from 'react';
 import clsx from 'clsx';
 import { Service } from 'data/services';
 
 type Props = HTMLAttributes<HTMLDivElement> & Omit<Service, 'text'>;
 
-const ServiceCard: FC<PropsWithChildren<Props>> = ({ title, color, className, children, ...rest }) => {
+const ServiceCard: FC<Props> = ({ title, color, className, children, ...rest }) => {
 	return (
 		<div className="pb-4 pr-4 lg:w-1/3">
 			<div

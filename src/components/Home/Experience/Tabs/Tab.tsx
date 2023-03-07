@@ -1,7 +1,7 @@
 import clsx from 'clsx';
-import type { FC, HTMLAttributes, PropsWithChildren } from 'react';
+import type { FC, HTMLAttributes } from 'react';
 
-interface Props extends PropsWithChildren, HTMLAttributes<HTMLLIElement> {
+interface Props extends HTMLAttributes<HTMLLIElement> {
 	selected?: boolean;
 }
 
