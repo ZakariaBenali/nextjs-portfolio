@@ -14,7 +14,7 @@ const Experience: FC = () => {
 					<TabList>
 						{experiences.map((d, i) => (
 							<Tab
-								className="px-6 py-2 mb-2 text-2xl font-semibold bg-black cursor-pointer hover:text-primary-500 text-white/60"
+								className="px-6 py-2 mb-2 mr-2 text-2xl font-semibold bg-black cursor-pointer lg:mr-0 hover:text-primary-500 text-white/60"
 								key={i}
 							>
 								{d.company}
