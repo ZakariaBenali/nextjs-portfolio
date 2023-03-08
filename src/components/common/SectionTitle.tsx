@@ -7,7 +7,7 @@ interface Props extends HTMLAttributes<HTMLHeadElement> {
 
 const SectionTitle: FC<Props> = ({ title, className, ...rest }) => {
 	return (
-		<h2 className={clsx('text-4xl lg:text-5xl font-bold font-outfit mb-16', className)} {...rest}>
+		<h2 className={clsx('text-4xl lg:text-5xl font-extrabold mb-16', className)} {...rest}>
 			{title}
 		</h2>
 	);

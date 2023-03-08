@@ -25,7 +25,6 @@ module.exports = {
 			},
 			fontFamily: {
 				sans: 'var(--font-plusJakartaSans)',
-				outfit: 'var(--font-outfit)',
 			},
 			colors: {
 				black: 'rgb(var(--color-black) / <alpha-value>)',

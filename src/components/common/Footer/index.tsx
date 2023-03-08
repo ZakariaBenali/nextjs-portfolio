@@ -24,7 +24,7 @@ const Footer: FC = () => {
 					</div>
 					<hr className="my-10 opacity-20" />
 					<p className="flex items-center justify-center text-sm xs:text-base">
-						<span className="mr-1 font-bold font-outfit ">@{new Date().getFullYear()}</span> - Made with
+						<span className="mr-1 font-bold">@{new Date().getFullYear()}</span> - Made with
 						<HeartColored className="mx-2" /> By Zakaria Benali
 					</p>
 				</div>

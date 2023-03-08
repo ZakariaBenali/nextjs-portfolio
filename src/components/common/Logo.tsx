@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Logo: FC = () => {
 	return (
-		<p className="text-2xl font-bold uppercase font-outfit">
+		<p className="text-2xl font-extrabold uppercase">
 			<span className="font-medium">Zakaria</span> Benali
 			<motion.span
 				className="inline-block  w-1.5 h-1.5 text-2xl rounded-full bg-primary-500"
