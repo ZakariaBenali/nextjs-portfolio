@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { AnimatedDivider } from 'components/common/AnimatedDivider';
 import { Experience } from 'data/experience';
 
-const TabPanel: FC<Experience> = ({
+const ExperienceSingle: FC<Experience> = ({
 	company,
 	date,
 	role,
@@ -63,4 +63,4 @@ const TabPanel: FC<Experience> = ({
 	);
 };
 
-export { TabPanel };
+export { ExperienceSingle };
