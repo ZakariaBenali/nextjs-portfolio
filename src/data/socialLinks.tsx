@@ -1,6 +1,6 @@
-import Github from 'assets/icons/github.svg';
-import Dribbble from 'assets/icons/dribbble.svg';
-import Linkedin from 'assets/icons/linkedin.svg';
+import Github from 'assets/icons/social-media/Github.svg';
+import Twitter from 'assets/icons/social-media/Twitter.svg';
+import Linkedin from 'assets/icons/social-media/Linkedin.svg';
 import React from 'react';
 
 export interface SocialLink {
@@ -16,9 +16,9 @@ export const socialLinks: SocialLink[] = [
 		icon: <Github />,
 	},
 	{
-		destination: 'https://dribbble.com/benalizakaria',
-		title: 'Dribbble',
-		icon: <Dribbble />,
+		destination: 'https://twitter.com/Zakariabenali2',
+		title: 'Twitter',
+		icon: <Twitter />,
 	},
 	{
 		destination: 'https://www.linkedin.com/in/zakaria-benali-115a7420b/',
